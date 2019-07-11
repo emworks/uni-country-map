@@ -1,0 +1,107 @@
+[
+    {
+        "score": 5535,
+        "name": "United Kingdom",
+        "count": 48
+    },
+    {
+        "score": 2955,
+        "name": "Germany",
+        "count": 34
+    },
+    {
+        "score": 1885,
+        "name": "Spain",
+        "count": 19
+    },
+    {
+        "score": 1322,
+        "name": "Netherlands",
+        "count": 11
+    },
+    {
+        "score": 1108,
+        "name": "Sweden",
+        "count": 9
+    },
+    {
+        "score": 989,
+        "name": "Italy",
+        "count": 11
+    },
+    {
+        "score": 829,
+        "name": "Switzerland",
+        "count": 7
+    },
+    {
+        "score": 698,
+        "name": "Belgium",
+        "count": 7
+    },
+    {
+        "score": 673,
+        "name": "Denmark",
+        "count": 5
+    },
+    {
+        "score": 626,
+        "name": "France",
+        "count": 11
+    },
+    {
+        "score": 533,
+        "name": "Norway",
+        "count": 3
+    },
+    {
+        "score": 463,
+        "name": "Portugal",
+        "count": 5
+    },
+    {
+        "score": 434,
+        "name": "Czech Republic",
+        "count": 4
+    },
+    {
+        "score": 432,
+        "name": "Austria",
+        "count": 4
+    },
+    {
+        "score": 425,
+        "name": "Russia",
+        "count": 3
+    },
+    {
+        "score": 373,
+        "name": "Ireland",
+        "count": 5
+    },
+    {
+        "score": 349,
+        "name": "Finland",
+        "count": 4
+    },
+    {
+        "score": 209,
+        "name": "Poland",
+        "count": 5
+    },
+    {
+        "score": 120,
+        "name": "Greece",
+        "count": 2
+    },
+    {
+        "score": 104,
+        "name": "Hungary",
+        "count": 2
+    },
+    {
+        "score": 38,
+        "name": "Slovenia",
+        "count": 1
+    }
+]
