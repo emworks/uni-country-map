@@ -3,7 +3,7 @@ package main;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ScoredCountry extends Country implements Scorable {
+public class ScoredCountry extends Country implements Scorable, Comparable<ScoredCountry> {
 	private List<RankedUniversity> universities;
 	private float score;
 	private int range;
@@ -44,5 +44,17 @@ public class ScoredCountry extends Country implements Scorable {
 	@Override
 	public int getRank(Object item) {
 		return ((RankedUniversity)item).getRank();
+	}
+
+	@Override
+	public int compareTo(ScoredCountry anotherCountry) {
+		float score = getScore();
+		float anotherScore = anotherCountry.getScore();
+		if (score > anotherScore) {
+			return -1;
+		} else if (score < anotherScore) {
+			return 1;
+		}
+		return 0;
 	}
 }

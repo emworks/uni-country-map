@@ -1,6 +1,7 @@
 package main;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 
@@ -157,7 +158,10 @@ public class UniCountryMap extends PApplet {
 	}
 	
 	public void printUniversityMap() {
-		for (ScoredCountry entry : universityMap.values()) {
+		List<ScoredCountry> countries = new ArrayList<>(universityMap.values());
+		Collections.sort(countries);
+		
+		for (ScoredCountry entry : countries) {
 			System.out.println(entry);
 		}
 	}
