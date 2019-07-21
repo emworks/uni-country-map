@@ -1,0 +1,502 @@
+[
+    {
+        "name": "University of Oxford",
+        "country": "gb",
+        "rank": 1
+    },
+    {
+        "name": "University of Cambridge",
+        "country": "gb",
+        "rank": 2
+    },
+    {
+        "name": "University College London",
+        "country": "gb",
+        "rank": 3
+    },
+    {
+        "name": "Eidgenössische Technische Hochschule Zürich",
+        "country": "ch",
+        "rank": 4
+    },
+    {
+        "name": "The University of Edinburgh",
+        "country": "gb",
+        "rank": 5
+    },
+    {
+        "name": "The University of Manchester",
+        "country": "gb",
+        "rank": 6
+    },
+    {
+        "name": "Katholieke Universiteit Leuven",
+        "country": "be",
+        "rank": 7
+    },
+    {
+        "name": "Universitetet i Oslo",
+        "country": "no",
+        "rank": 8
+    },
+    {
+        "name": "Universität Wien",
+        "country": "at",
+        "rank": 9
+    },
+    {
+        "name": "The University of Nottingham",
+        "country": "gb",
+        "rank": 10
+    },
+    {
+        "name": "The London School of Economics and Political Science",
+        "country": "gb",
+        "rank": 11
+    },
+    {
+        "name": "University of Glasgow",
+        "country": "gb",
+        "rank": 12
+    },
+    {
+        "name": "Norges teknisk-naturvitenskaplige universitet",
+        "country": "no",
+        "rank": 13
+    },
+    {
+        "name": "University of Leeds",
+        "country": "gb",
+        "rank": 14
+    },
+    {
+        "name": "The University of Warwick",
+        "country": "gb",
+        "rank": 15
+    },
+    {
+        "name": "Universität München",
+        "country": "de",
+        "rank": 16
+    },
+    {
+        "name": "École Polytechnique Fédérale de Lausanne",
+        "country": "ch",
+        "rank": 17
+    },
+    {
+        "name": "Københavns Universitet",
+        "country": "dk",
+        "rank": 18
+    },
+    {
+        "name": "Universidad Complutense de Madrid",
+        "country": "es",
+        "rank": 19
+    },
+    {
+        "name": "Technische Universiteit Delft",
+        "country": "nl",
+        "rank": 20
+    },
+    {
+        "name": "Helsingin yliopisto",
+        "country": "fi",
+        "rank": 21
+    },
+    {
+        "name": "Universitat de Barcelona",
+        "country": "es",
+        "rank": 22
+    },
+    {
+        "name": "Imperial College London",
+        "country": "gb",
+        "rank": 23
+    },
+    {
+        "name": "King's College London",
+        "country": "gb",
+        "rank": 24
+    },
+    {
+        "name": "Moscow State University",
+        "country": "ru",
+        "rank": 25
+    },
+    {
+        "name": "Freie Universität Berlin",
+        "country": "de",
+        "rank": 26
+    },
+    {
+        "name": "Università degli Studi di Bologna",
+        "country": "it",
+        "rank": 27
+    },
+    {
+        "name": "Aarhus Universitet",
+        "country": "dk",
+        "rank": 28
+    },
+    {
+        "name": "Universiteit Gent",
+        "country": "be",
+        "rank": 29
+    },
+    {
+        "name": "Universiteit Utrecht",
+        "country": "nl",
+        "rank": 30
+    },
+    {
+        "name": "Kungliga Tekniska högskolan",
+        "country": "se",
+        "rank": 31
+    },
+    {
+        "name": "Universiteit van Amsterdam",
+        "country": "nl",
+        "rank": 32
+    },
+    {
+        "name": "Uppsala Universitet",
+        "country": "se",
+        "rank": 33
+    },
+    {
+        "name": "Lunds Universitet",
+        "country": "se",
+        "rank": 34
+    },
+    {
+        "name": "Technische Universität München",
+        "country": "de",
+        "rank": 35
+    },
+    {
+        "name": "Rheinisch-Westfälische Technische Hochschule Aachen",
+        "country": "de",
+        "rank": 36
+    },
+    {
+        "name": "Newcastle University",
+        "country": "gb",
+        "rank": 37
+    },
+    {
+        "name": "Universidade de Lisboa",
+        "country": "pt",
+        "rank": 38
+    },
+    {
+        "name": "University of Southampton",
+        "country": "gb",
+        "rank": 39
+    },
+    {
+        "name": "University of Birmingham",
+        "country": "gb",
+        "rank": 40
+    },
+    {
+        "name": "Rijksuniversiteit Groningen",
+        "country": "nl",
+        "rank": 41
+    },
+    {
+        "name": "Danmarks Tekniske Universitet",
+        "country": "dk",
+        "rank": 42
+    },
+    {
+        "name": "Universidade do Porto",
+        "country": "pt",
+        "rank": 43
+    },
+    {
+        "name": "Université de Genève",
+        "country": "ch",
+        "rank": 44
+    },
+    {
+        "name": "Universidad de Granada",
+        "country": "es",
+        "rank": 45
+    },
+    {
+        "name": "Universität Heidelberg",
+        "country": "de",
+        "rank": 46
+    },
+    {
+        "name": "National Research University Higher School of Economics",
+        "country": "ru",
+        "rank": 47
+    },
+    {
+        "name": "Politecnico di Milano",
+        "country": "it",
+        "rank": 48
+    },
+    {
+        "name": "Universitetet i Bergen",
+        "country": "no",
+        "rank": 49
+    },
+    {
+        "name": "Univerzita Karlova",
+        "country": "cz",
+        "rank": 50
+    },
+    {
+        "name": "Universitat Politècnica de Catalunya",
+        "country": "es",
+        "rank": 51
+    },
+    {
+        "name": "Masarykova univerzita",
+        "country": "cz",
+        "rank": 52
+    },
+    {
+        "name": "Technische Universität Wien",
+        "country": "at",
+        "rank": 53
+    },
+    {
+        "name": "The University of Sheffield",
+        "country": "gb",
+        "rank": 54
+    },
+    {
+        "name": "Aalto-yliopisto",
+        "country": "fi",
+        "rank": 55
+    },
+    {
+        "name": "Trinity College Dublin, University of Dublin",
+        "country": "ie",
+        "rank": 56
+    },
+    {
+        "name": "The University of York",
+        "country": "gb",
+        "rank": 57
+    },
+    {
+        "name": "University of Liverpool",
+        "country": "gb",
+        "rank": 58
+    },
+    {
+        "name": "University of Leicester",
+        "country": "gb",
+        "rank": 59
+    },
+    {
+        "name": "Technische Universität Berlin",
+        "country": "de",
+        "rank": 60
+    },
+    {
+        "name": "Universitat de València",
+        "country": "es",
+        "rank": 61
+    },
+    {
+        "name": "Universiteit Twente",
+        "country": "nl",
+        "rank": 62
+    },
+    {
+        "name": "Universität Zürich",
+        "country": "ch",
+        "rank": 63
+    },
+    {
+        "name": "Queen Mary University of London",
+        "country": "gb",
+        "rank": 64
+    },
+    {
+        "name": "Universidad Politécnica de Madrid",
+        "country": "es",
+        "rank": 65
+    },
+    {
+        "name": "Humboldt-Universität zu Berlin",
+        "country": "de",
+        "rank": 66
+    },
+    {
+        "name": "Durham University",
+        "country": "gb",
+        "rank": 67
+    },
+    {
+        "name": "Linköpings Universitet",
+        "country": "se",
+        "rank": 68
+    },
+    {
+        "name": "Universitat Autónoma de Barcelona",
+        "country": "es",
+        "rank": 69
+    },
+    {
+        "name": "Universität Hamburg",
+        "country": "de",
+        "rank": 70
+    },
+    {
+        "name": "Ceské vysoké ucení technické v Praze",
+        "country": "cz",
+        "rank": 71
+    },
+    {
+        "name": "University of Exeter",
+        "country": "gb",
+        "rank": 72
+    },
+    {
+        "name": "Universidad de Sevilla",
+        "country": "es",
+        "rank": 73
+    },
+    {
+        "name": "Chalmers tekniska högskola",
+        "country": "se",
+        "rank": 74
+    },
+    {
+        "name": "Universidad Politécnica de Valencia",
+        "country": "es",
+        "rank": 75
+    },
+    {
+        "name": "University of Sussex",
+        "country": "gb",
+        "rank": 76
+    },
+    {
+        "name": "Lancaster University",
+        "country": "gb",
+        "rank": 77
+    },
+    {
+        "name": "Ruhr-Universität Bochum",
+        "country": "de",
+        "rank": 78
+    },
+    {
+        "name": "Wageningen Universiteit",
+        "country": "nl",
+        "rank": 79
+    },
+    {
+        "name": "Sapienza Università di Roma",
+        "country": "it",
+        "rank": 80
+    },
+    {
+        "name": "University College Dublin",
+        "country": "ie",
+        "rank": 81
+    },
+    {
+        "name": "Karlsruher Institut für Technologie",
+        "country": "de",
+        "rank": 82
+    },
+    {
+        "name": "University of Bristol",
+        "country": "gb",
+        "rank": 83
+    },
+    {
+        "name": "University of St Andrews",
+        "country": "gb",
+        "rank": 84
+    },
+    {
+        "name": "Università degli Studi di Padova",
+        "country": "it",
+        "rank": 85
+    },
+    {
+        "name": "Technische Universiteit Eindhoven",
+        "country": "nl",
+        "rank": 86
+    },
+    {
+        "name": "University of Bath",
+        "country": "gb",
+        "rank": 87
+    },
+    {
+        "name": "Université de Strasbourg",
+        "country": "fr",
+        "rank": 88
+    },
+    {
+        "name": "Universität Freiburg",
+        "country": "de",
+        "rank": 89
+    },
+    {
+        "name": "Rheinische Friedrich-Wilhelms-Universität Bonn",
+        "country": "de",
+        "rank": 90
+    },
+    {
+        "name": "University of Surrey",
+        "country": "gb",
+        "rank": 91
+    },
+    {
+        "name": "Umeå universitet",
+        "country": "se",
+        "rank": 92
+    },
+    {
+        "name": "Göteborgs universitet",
+        "country": "se",
+        "rank": 93
+    },
+    {
+        "name": "Universität zu Köln",
+        "country": "de",
+        "rank": 94
+    },
+    {
+        "name": "Universidade de Coimbra",
+        "country": "pt",
+        "rank": 95
+    },
+    {
+        "name": "Stockholms universitet",
+        "country": "se",
+        "rank": 96
+    },
+    {
+        "name": "Universität Leipzig",
+        "country": "de",
+        "rank": 97
+    },
+    {
+        "name": "Università degli Studi di Milano",
+        "country": "it",
+        "rank": 98
+    },
+    {
+        "name": "Université de Liège",
+        "country": "be",
+        "rank": 99
+    },
+    {
+        "name": "Universidad de Alicante",
+        "country": "es",
+        "rank": 100
+    }
+]
