@@ -1,6 +1,6 @@
 package main;
 
-public class Entity {
+abstract public class Entity {
 	private String name;
 	
 	public Entity(String name) {
