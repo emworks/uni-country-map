@@ -84,7 +84,7 @@ public class UniCountryMap extends PApplet {
 	}
 	
 	private void setCountryMarkers(List<Feature> countries, String name) {
-		PFont markerHintFont = createFont("Arial", MarkerHint.TEXT_SIZE);
+		PFont markerLabelFont = createFont("Arial", Labeled.TEXT_SIZE);
 		for (Feature country : countries) {
 			if (country.getType() == Feature.FeatureType.MULTI) {
 				List<Feature> features = ((MultiFeature)country).getFeatures();
@@ -103,7 +103,7 @@ public class UniCountryMap extends PApplet {
 				country.addProperty("score", scoredCountry.getScore());
 			}
 			
-			countryMarkers.add(new CountryMarker((ShapeFeature)country, markerHintFont));
+			countryMarkers.add(new CountryMarker((ShapeFeature)country, markerLabelFont));
 		}
 	}
 	

@@ -2,27 +2,27 @@ package main;
 
 import processing.core.PGraphics;
 
-public interface MarkerHint {
+public interface Labeled {
 	final static float TITLE_SIZE = 16;
 	final static float TEXT_SIZE = 12;
 	final static float PADDING_X = 20;
 	final static float PADDING_Y = 10;
 	
-	public default void showHint(PGraphics pg, float x, float y) {
+	public default void showLabel(PGraphics pg, float x, float y) {
 		pg.pushStyle();
 		
 		float textLineSpacing = (pg.textAscent() + pg.textDescent()) / 2;
-		float textSize = getHintTextLinesCount() * (TEXT_SIZE + textLineSpacing);
+		float textSize = getLabelTextLinesCount() * (TEXT_SIZE + textLineSpacing);
 		
-		String title = getHintTitle();
-		String text = getHintText();
+		String title = getLabelTitle();
+		String text = getLabelText();
 		
 		float textWidth = pg.textWidth(title) > pg.textWidth(text)
 				? pg.textWidth(title) : pg.textWidth(text);
 		
 		pg.textSize(TITLE_SIZE);
 		float titleLineSpacing = (pg.textAscent() + pg.textDescent()) / 2;
-		float titleSize = getHintTitleLinesCount() * (TITLE_SIZE + titleLineSpacing);
+		float titleSize = getLabelTitleLinesCount() * (TITLE_SIZE + titleLineSpacing);
 		
 		pg.strokeWeight = 1;
 		pg.rect(x, y, textWidth + PADDING_X, titleSize + textSize + PADDING_Y);
@@ -38,8 +38,8 @@ public interface MarkerHint {
 		pg.popStyle();
 	}
 	
-	abstract public String getHintTitle();
-	abstract public String getHintText();
-	abstract public int getHintTitleLinesCount();
-	abstract public int getHintTextLinesCount();
+	abstract public String getLabelTitle();
+	abstract public String getLabelText();
+	abstract public int getLabelTitleLinesCount();
+	abstract public int getLabelTextLinesCount();
 }

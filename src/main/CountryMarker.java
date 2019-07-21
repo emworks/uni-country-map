@@ -9,16 +9,16 @@ import processing.core.PConstants;
 import processing.core.PFont;
 import processing.core.PGraphics;
 
-public class CountryMarker extends SimplePolygonMarker implements MarkerHint {
-	private PFont hintFont;
+public class CountryMarker extends SimplePolygonMarker implements Labeled {
+	private PFont labelFont;
 	
 	public CountryMarker(ShapeFeature country) {
 		super(country.getLocations(), country.getProperties());
 	}
 	
-	public CountryMarker(ShapeFeature country, PFont hintFont) {
+	public CountryMarker(ShapeFeature country, PFont labelFont) {
 		this(country);
-		this.hintFont = hintFont;
+		this.labelFont = labelFont;
 	}
 	
 	public String toString() {
@@ -35,10 +35,10 @@ public class CountryMarker extends SimplePolygonMarker implements MarkerHint {
 		
 		if (isSelected() && getScore() != 0) {
 			pg.strokeWeight(strokeWeight);
-			if (hintFont != null) {
-				pg.textFont(hintFont);
+			if (labelFont != null) {
+				pg.textFont(labelFont);
 			}
-			showHint(pg, 10, 10);
+			showLabel(pg, 10, 10);
 			pg.stroke(strokeColor);
 		}
 		
@@ -70,12 +70,12 @@ public class CountryMarker extends SimplePolygonMarker implements MarkerHint {
 	}
 	
 	@Override
-	public String getHintTitle() {
+	public String getLabelTitle() {
 		return toString();
 	}
 	
 	@Override
-	public String getHintText() {
+	public String getLabelText() {
 		String universities = "";
 		List<Object> universitiesList = getUniversities();
 		if (universitiesList != null) {
@@ -87,12 +87,12 @@ public class CountryMarker extends SimplePolygonMarker implements MarkerHint {
 	}
 	
 	@Override
-	public int getHintTitleLinesCount() {
+	public int getLabelTitleLinesCount() {
 		return 1;
 	}
 
 	@Override
-	public int getHintTextLinesCount() {
+	public int getLabelTextLinesCount() {
 		return getUniversities().size();
 	}
 }
